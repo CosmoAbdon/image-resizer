@@ -1,0 +1,14 @@
+node_modules/*
+libs.txt
+dist/*
+tmp/uploads/*
+!tmp/uploads/.gitkeep
+.env
+yarn.lock
+
+# testing
+__tests__/coverage
+__tests__/database.sqlite
+
+# production
+/build
